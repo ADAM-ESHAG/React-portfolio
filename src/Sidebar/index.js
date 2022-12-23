@@ -31,17 +31,17 @@ const Sidebar = () => (
         </nav>
         <ul>
             <li>
-                <a target='_blank' rel='ADAM-ESHAG' href='https://www.linkedin.com/in/mohammed-adam-eshag-9a6780183/'>
+                <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/mohammed-adam-eshag-9a6780183/'>
                     <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
                 </a>
             </li>
             <li>
-                <a target='_blank' rel='ADAM-ESHAG' href='https://github.com/ADAM-ESHAG'>
+                <a target='_blank' rel="noreferrer" href='https://github.com/ADAM-ESHAG'>
                     <FontAwesomeIcon icon={faGithub} color='#4d4d4e' />
                 </a>
             </li>
             <li>
-                <a target='_blank' rel='ADAM-ESHAG' href='https://twitter.com/Mo_adameshag'>
+                <a target='_blank' rel="noreferrer" href='https://twitter.com/Mo_adameshag'>
                     <FontAwesomeIcon icon={faTwitter} color='#4d4d4e' />
                 </a>
             </li>
