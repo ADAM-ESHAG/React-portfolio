@@ -71,3 +71,47 @@
         transform: rotateX(90deg);
     }
 }
+
+@media screen and (max-width: 1200px) {
+    #text-about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        .text-zone {
+            text-align: center;
+            h1 {
+                text-align: center;
+                margin-left: 10%;
+                margin-right: 10%;
+                &::before,
+                &::after {
+                    margin-left: 150px;
+                }
+            }
+            p {
+                text-align: center;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+            
+        }
+    }
+    .stage-cube-cont {
+        position: initial;
+        width: 100%;
+        height: 0%;
+        overflow: visible;
+
+        .cubespinner {
+            width: 0;
+            white-space:nowrap;
+
+            div {
+                width: 170px;
+                height: 170px;
+            }
+            
+           
+        }
+    }
+}

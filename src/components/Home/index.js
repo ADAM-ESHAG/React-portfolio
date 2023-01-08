@@ -9,7 +9,7 @@ import Loader from 'react-loaders'
 const Home = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = ['D','A','M',' ','E','S','H','A','G']
+    const nameArray = ['D','A','M', '.']
     const jobArray = ['W','e','b',' ','D','e','v','e','l','o','p','e','r','.']
 
     useEffect(() => {

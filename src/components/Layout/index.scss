@@ -35,9 +35,10 @@
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
+    
 }
 
-.about-page {
+.about-page, .contact-page, .portfolio-page{
     .text-zone {
         position: absolute;
         left: 10%;
@@ -85,6 +86,7 @@
 
         p {
             font-style: 13px;
+            font-size: 18px;
             color: #fff;
             font-family: sans-serifn;
             font-weight: 300;
@@ -108,4 +110,34 @@
             color: #fff;
         }
     }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 1200px) {
+   .page {
+    position: initial;
+   } 
+
+   .container {
+    position: initial;
+    height: auto;
+    min-height: auto;
+
+    &.about-page,
+    &.contact-page,
+    &.portfolio-page {
+        .text-zone {
+            position: initial;
+            transform: none;
+            width: 100%;
+            display: block;
+            padding: 20px;
+            box-sizing: border-box;
+            
+        }
+    }
+   }
 }

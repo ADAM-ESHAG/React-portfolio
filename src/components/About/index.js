@@ -17,12 +17,12 @@ const About = () => {
 
     return (
         <>
-            <div className='container about-page'>
+            <div className='container about-page' id='text-about'>
                 <div className='text-zone'>
                     <h1>
                         <AnimatedLetters 
                             letterClass={letterClass}
-                            strArray={['A', 'b', 'o', 't',' ', 'm', 'e']}
+                            strArray={['A', 'b', 'o', 'u', 't',' ', 'm', 'e']}
                             idx={15}
                         />
                     </h1>
