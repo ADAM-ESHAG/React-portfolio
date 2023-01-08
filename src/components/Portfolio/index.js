@@ -5,7 +5,7 @@ import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import ClipboardImg from "../../assets/images/cover/clipboard.jpg"
 import SurveyImg from "../../assets/images/cover/survey.png"
-import LandingImg from "../../assets/images/cover/Landing.png"
+import ApiImg from "../../assets/images/cover/Api.png"
 import BookiImg from "../../assets/images/cover/booki.png"
 import OhmyfoodImg from "../../assets/images/cover/ohmyfood.png"
 import LaPantereImg from "../../assets/images/cover/lapantere.png"
@@ -49,13 +49,6 @@ const Protfolio = () => {
                             <p>Html5, Css3, Bootstrap</p>
                         </div>
                     </a>
-                    <a href='https://adam-eshag.github.io/Clipboard-Challenge/' rel="noreferrer" target='_blank' className='project'>
-                        <img src={LandingImg} alt='Landing' />
-                        <div className='description'>
-                            <h4>Landing, Challenge </h4>
-                            <p>Html5, Css3, animations</p>
-                        </div>
-                    </a>
                     <a href='https://adam-eshag.github.io/P2_Booki_OpenclassRooms/' rel="noreferrer" target='_blank' className='project'>
                         <img src={BookiImg} alt='Booki' />
                         <div className='description'>
@@ -74,21 +67,28 @@ const Protfolio = () => {
                         <img src={LaPantereImg} alt='La Panthère' />
                         <div className='description'>
                             <h4>La Panthère</h4>
-                            <p>Html5, Css3, JavaScript, SEO</p>
+                            <p>SEO</p>
                         </div>
                     </a>
                     <a href='https://kanap.onrender.com/' rel="noreferrer" target='_blank' className='project'>
                         <img src={KanapImg} alt='kanap' />
                         <div className='description'>
                             <h4>Kanap</h4>
-                            <p>Html5, Css3, JavaScript</p>
+                            <p>JavaScript, Html5, Css3</p>
                         </div>
                     </a>
-                    <a href='https://thriving-naiad-2fdcfd.netlify.app/' rel="noreferrer" target='_blank' className='project'>
+                    <a href='https://github.com/ADAM-ESHAG/create_an_api' rel="noreferrer" target='_blank' className='project'>
+                        <img src={ApiImg} alt='Api' />
+                        <div className='description'>
+                            <h4>HotTakes</h4>
+                            <p>NodeJs, Express, MongoDB</p>
+                        </div>
+                    </a>
+                    <a href='https://kasaapp.netlify.app' rel="noreferrer" target='_blank' className='project'>
                         <img src={KasaImg} alt='Kasa' />
                         <div className='description'>
                             <h4>Kasa</h4>
-                            <p>Html5, Css3, JavaScript, ReactJsx</p>
+                            <p>JavaScript, ReactJs</p>
                         </div>
                     </a>
                 </div>
