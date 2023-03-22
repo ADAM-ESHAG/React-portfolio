@@ -2,10 +2,10 @@
     background: #181818;
     width: 60px;
     height: 100%;
-    position: absolute;
+    position: relative;
     top: 0;
     z-index: 3;
-    min-height: 500px;
+    min-height: 900px;
     
 
     .logo {
@@ -92,7 +92,7 @@
         
         a.portfolio-link {
             &::after {
-                content: 'My Work';
+                content: 'Work';
             }
         }
 
