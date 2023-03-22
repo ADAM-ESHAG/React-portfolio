@@ -9,8 +9,9 @@ import Loader from 'react-loaders'
 const Home = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate')
+    const firstNameArray = [' ', 'M','o','h', 'a', 'm', 'm', 'e','d']
     const nameArray = ['D','A','M', '.']
-    const jobArray = ['W','e','b',' ','D','e','v','e','l','o','p','e','r','.']
+    const jobArray = ['D','é','v','e','l','o','p','p','e','u', 'r', ' ', 'W', 'e', 'b', '.']
 
     useEffect(() => {
         setTimeout(() => {
@@ -31,12 +32,13 @@ const Home = () => {
                         <br />
                         <span className={`${letterClass} _16`}>I</span>
                         <span className={`${letterClass} _17`}>'m</span>
+                        <AnimatedLetters letterClass={letterClass} strArray={firstNameArray} idx={18}/>
                         <img src={LogoTitle} alt='developer' />
-                        <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={18}/>
+                        <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={26}/>
                         <br />
-                        <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={26}/>
+                        <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={29}/>
                     </h1>
-                    <h2>Front-End Developer / JavaScript / React / NodeJs / </h2>
+                    <h2>Développeur Fullstack / JavaScript / React / Node.Js</h2>
                     <Link to='/contact' className='flat-button'>CONTACT ME</Link>
                 </div>
                 <Logo />
