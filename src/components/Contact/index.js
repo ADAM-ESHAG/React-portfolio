@@ -48,27 +48,28 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        I am interested in freelance opportunities - especially on ambitious
-                        or large projects. However, if you have any other requests or
-                        questions, don't hesitate to contact me using below form either.
+                        Je suis intéressé par les opportunités de freelance - en 
+                        particulier sur des projets ambitieux ou de grande envergure. 
+                        Cependant, si vous avez d'autres demandes ou questions, 
+                        n'hésitez pas à me contacter en utilisant le formulaire ci-dessous.
                     </p>
                     <div className='contact-form'>
                         <form ref={refForm} onSubmit={sendEmail}>
                             <ul>
                                 <li className='half'>
-                                    <input type='text' name='name' placeholder='Name' required />
+                                    <input type='text' name='name' placeholder='Nom' required />
                                 </li>
                                 <li className='half'>
                                     <input type='email' name='email' placeholder='Email' required />
                                 </li>
                                 <li>
-                                    <input type='text' name='subject' placeholder='Subject' required />
+                                    <input type='text' name='subject' placeholder='Sujet' required />
                                 </li>
                                 <li>
                                     <textarea name='message' placeholder='Message' required></textarea>
                                 </li>
                                 <li>
-                                    <input type='submit' className='flat-button' value='SEND' ></input>
+                                    <input type='submit' className='flat-button' value='Envoyer' ></input>
                                 </li>
                             </ul>
                         </form>
