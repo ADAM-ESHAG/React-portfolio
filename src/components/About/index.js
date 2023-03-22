@@ -27,18 +27,19 @@ const About = () => {
                         />
                     </h1>
                     <p>
-                        I'm a very ambitious web developer looking for a role in an
-                        established IT company with the opportunity to work with the latest
-                        technologies on challenging and diverse projects.
+                        Je suis un développeur web très ambitieux à la recherche 
+                        d'un rôle dans une entreprise spécialisée dans le IT avec 
+                        l'opportunité de travailler avec les dernières technologies 
+                        sur des projets ambitieux et diversifiés.
                     </p>
                     <p align="LEFT">
-                        I'm quiet confident, naturally curious, and perpetually working on
-                        improving my chops one design problem at a time.
+                        Je suis confiant, naturellement curieux et je travaille 
+                        constamment à améliorer mes compétences.
                     </p>
                     <p>
-                        If i need to define myself in one sentence that would be an ambitious 
-                        and pragmatic person who wants to contribute to major innovative 
-                        projects that can change the history of humanity!!!
+                        Si je devais me définir en une phrase ce serait une personne 
+                        ambitieuse et pragmatique qui veut contribuer à de grands 
+                        projets innovants qui peuvent changer l'histoire de l'humanité !
                     </p>
                 </div>
                 <div className='stage-cube-cont'>
